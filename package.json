@@ -1,0 +1,28 @@
+{
+  "name": "financial-calendar-bot",
+  "version": "1.0.0",
+  "description": "每日财经日历推送机器人 - 自动获取财经事件、价格、情绪指标，推送到飞书",
+  "main": "scripts/daily_digest.js",
+  "scripts": {
+    "start": "node scripts/daily_digest.js",
+    "test": "node scripts/daily_digest.js --test"
+  },
+  "keywords": [
+    "financial",
+    "calendar",
+    "forex",
+    "trading",
+    "feishu",
+    "bot"
+  ],
+  "author": "carsonte",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carsonte/financial-calendar-bot"
+  },
+  "bugs": {
+    "url": "https://github.com/carsonte/financial-calendar-bot/issues"
+  },
+  "homepage": "https://github.com/carsonte/financial-calendar-bot"
+}
